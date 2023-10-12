@@ -1,0 +1,57 @@
+@media screen and (min-width: 810px) and (max-width: 1199px) {
+    
+    .contener{width: 100%; margin: 0;background-color: #e6e5e3;}
+    header{
+        min-height: unset;
+        padding: 50px;
+        width: 100%;
+    }
+
+    header h1{
+        font-size: 40px;
+    }
+
+    .header__nav{
+        justify-content: flex-start;
+    }
+
+    .grid {grid-template-columns: repeat(2, minmax(200px, 1fr));}
+    .diff{flex-flow: column;}
+}
+
+
+@media  screen and (max-width: 809px) {
+    
+    .contener{width: 100%; margin: 0;background-color: #e6e5e3;}
+
+    header{
+        flex-direction: column;
+        gap: 50px;
+        min-height: unset;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .header__nav{ margin: 0; justify-content: flex-start;}
+
+    nav{flex-flow: column;}
+
+    .philos{padding: 15px 50px;}
+
+    .biocont{flex-flow: column;}
+    .pic img{height: 250px;}
+    
+    .gallery {padding: 20px;}
+
+    .grid {grid-template-columns: repeat(1, minmax(200px, 1fr));}
+
+    .grid img {
+        border-radius: 20px;
+        height: 350px;
+    }
+    
+    .diff{flex-flow: column;padding: 20px;}
+    .diff img{border-radius: 20px;height: 350px;}
+    
+    footer{padding: 40px 20px;}
+}
